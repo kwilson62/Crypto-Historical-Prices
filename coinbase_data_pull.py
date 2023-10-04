@@ -10,7 +10,7 @@ import requests
 
 def getLastTime(df):
     row = df.tail(1)
-    timestamp = row["Unix Timestamp"]
+    timestamp = row["Unix Timestamp"].iloc[0]
     last_time = dt.datetime.fromtimestamp(timestamp, tz=dt.timezone.utc)
     return last_time
 
