@@ -1,12 +1,11 @@
 # Crypto-Historical-Prices
 An ETL project that compiles historical cryptocurrency prices from online sources into one SQL database
 
+### THIS IS A FORK FROM GENDO90 https://github.com/Gendo90/Crypto-Historical-Prices
+### MY FORK REMOVES ALL ETH RELATED FILES AND DATA
+# IT IS BITCOIN ONLY
+
 ## Introduction
-
-THIS IS A FORK FROM GENDO90 https://github.com/Gendo90/Crypto-Historical-Prices
-MY FORK REMOVES ALL ETH RELATED FILES AND DATA
-IT IS BITCOIN ONLY
-
 This project enables anyone to get historical and up-to-date price information at the 1-minute level of granularity for the two largest cryptocurrency projects at the moment, Bitcoin and Ethereum. 
 
 The Bitcoin data ranges from approximately December 2014 through this month (August 2020), and can be quickly and easily updated to include more recent data. 
